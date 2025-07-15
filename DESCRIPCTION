@@ -1,0 +1,15 @@
+Package: Rapp
+Type: Package
+Title: Herramientas Previsionales (CLI y GUI opcional)
+Version: 0.1.0
+Authors@R: 
+  person("Diego", "Meza", email = "tu.email@dominio.com", role = c("aut","cre"))
+Description: 
+  Funciones para calcular estadísticas y graficar 10 valores, con interfaz tcltk opcional.
+Depends: 
+  R (>= 4.0), tcltk
+Imports:
+  stats, graphics
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
